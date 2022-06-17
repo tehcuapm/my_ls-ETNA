@@ -1,0 +1,22 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/matheo/Documents/ETNA/My_ls'
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/main.o src/main.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/base_options_functions.o src/base_options_functions.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_l.o src/option_l.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_r.o src/option_r.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_majL.o src/option_majL.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_d.o src/option_d.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_a.o src/option_a.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_t.o src/option_t.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_f.o src/option_f.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_majA.o src/option_majA.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/options_functions.o src/options_functions.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/sort_files.o src/sort_files.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/pools_functions.o src/pools_functions.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/base_ls.o src/base_ls.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/dir_functions.o src/dir_functions.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/my_ls.o src/my_ls.c
+cc -Wall  -Wextra -Werror -ggdb3   -c -o src/option_majR.o src/option_majR.c
+gcc -o my_ls ./src/main.o ./src/base_options_functions.o ./src/option_l.o ./src/option_r.o ./src/option_majL.o ./src/option_d.o ./src/option_a.o ./src/option_t.o ./src/option_f.o ./src/option_majA.o ./src/options_functions.o ./src/sort_files.o ./src/pools_functions.o ./src/base_ls.o ./src/dir_functions.o ./src/my_ls.o ./src/option_majR.o -Wall  -Wextra -Werror -ggdb3
+make: Leaving directory '/home/matheo/Documents/ETNA/My_ls'
+ 

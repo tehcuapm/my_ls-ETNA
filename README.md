@@ -1,3 +1,20 @@
-# Groupe de garo_n 944762
+# My_ls
 
-TOC TIENS TIENS TIENS HOP DANS TES DENTS
+# Pour lancer le projet
+
+```
+ $ make
+ $ ./my_ls
+```
+
+# Options disponibles
+
+- -a
+- -A
+- -R
+- -r
+- -l
+- -d
+- -t (ne fonctionne pas mais affiche bien les fichiers.)
+
+Plusieurs options peuvent être demandés en même temps mais séparés par un espace.
